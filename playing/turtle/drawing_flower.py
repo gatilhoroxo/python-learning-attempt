@@ -1,6 +1,8 @@
 import tkinter as TK
 import turtle as t
 
+# desenhar uma flor
+
 pen = t.Turtle()
 pen.color('red')
 pen.speed(5)

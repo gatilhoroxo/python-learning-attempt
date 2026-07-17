@@ -9,4 +9,12 @@ page: 26
 ```sh
 python3 #abre um terminal dentro do terminal para executar qualquer coisa que fosse escrita em um código em python
 
+# na raíz do repositório
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+
+# para atualizar os requerimentos
+# com o ambiente ativado e na raíz do repositório
+pip freeze > requirements.txt
 ```
